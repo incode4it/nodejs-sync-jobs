@@ -1,3 +1,5 @@
+const { once, EventEmitter } = require('events');
+
 const myEmitter = new EventEmitter();
 let isJobCurrentlyRunning = false;
 
