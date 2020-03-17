@@ -27,3 +27,11 @@ for (let i = 0; i < 3; i++) {
     }).bind(i))
 }
 console.log('binded 3')
+
+// helper
+function randInt(max) {
+    var rand = Math.random() * max;
+    rand = Math.floor(rand);
+    return rand;
+}
+
